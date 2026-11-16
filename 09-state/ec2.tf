@@ -23,7 +23,7 @@ resource "aws_security_group" "common" {
   }
 
   tags = {
-    name = "roboshop-dev"
+    name = "roboshop-devss"
     terraform = "true"
     project = "roboshop"
     env = "dev"
